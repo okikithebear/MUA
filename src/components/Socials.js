@@ -6,22 +6,38 @@ const Socials = () => {
     <div className='hidden xl:flex ml-24'>
       <ul className='flex gap-x-4'>
         <li>
-          <a href='http://www.facebook.com' target='_blank'>
+          <a
+            href='http://www.facebook.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <ImFacebook />
           </a>
         </li>
         <li>
-          <a href='http://www.Twitter.com' target='_blank'>
+          <a
+            href='http://www.Twitter.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <ImTwitter />
           </a>
         </li>
         <li>
-          <a href='http://www.Instagram.com' target='_blank'>
+          <a
+            href='http://www.Instagram.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <ImInstagram />
           </a>
         </li>
         <li>
-          <a href='http://www.Youtube.com' target='_blank'>
+          <a
+            href='http://www.Youtube.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <ImYoutube />
           </a>
         </li>

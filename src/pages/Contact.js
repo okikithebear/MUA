@@ -58,7 +58,7 @@ const Contact = () => {
             transition={{ transition: transition1, duration: 1.5 }}
             className='lg:flex-1'
           >
-            <img src={WomanImg} alt='image' className='p-14 lg:p-20 ' />
+            <img src={WomanImg} alt=' woman' className='p-14 lg:p-20 ' />
           </motion.div>
         </div>
       </div>
