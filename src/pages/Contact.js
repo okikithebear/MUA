@@ -54,11 +54,11 @@ const Contact = () => {
                   123456789
                 </a>
               </div>
-              <div className='flex items-center gap-2'>
+              <div className='flex items-center gap-2 text-wine'>
                 <FiInstagram />
                 <a
                   href={instagramLink}
-                  className='text-wine hover:text-black'
+                  className=' hover:text-black'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
