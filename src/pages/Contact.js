@@ -46,23 +46,23 @@ const Contact = () => {
                 <FiPhone />
                 <span>WhatsApp number:</span>
                 <a
-                  href={whatsappLink}
+                  href='https://wa.me/2348060931452'
                   className='hover:text-black'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  123456789
+                  08060931452
                 </a>
               </div>
               <div className='flex items-center gap-2 text-wine'>
                 <FiInstagram />
                 <a
-                  href={instagramLink}
+                  href='https://instagram.com/titibellz_mua?igshid=MzRlODBiNWFlZA=='
                   className=' hover:text-black'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Instagram Profile
+                  Titi Bellz Mua
                 </a>
               </div>
             </div>
