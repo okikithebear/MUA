@@ -6,8 +6,9 @@ import { FiMail, FiPhone, FiInstagram } from 'react-icons/fi';
 
 const Contact = () => {
   const emailLink = 'mailto:mua@gmail.com';
-  const whatsappLink = 'https://api.whatsapp.com/send?phone=123456789';
-  const instagramLink = 'https://instagram.com/artist';
+  const whatsappLink = 'https://api.whatsapp.com/send?phone=08060931452';
+  const instagramLink =
+    'https://instagram.com/titibellz_mua?igshid=MzRlODBiNWFlZA==';
 
   return (
     <motion.section
@@ -46,7 +47,7 @@ const Contact = () => {
                 <FiPhone />
                 <span>WhatsApp number:</span>
                 <a
-                  href='https://wa.me/2348060931452'
+                  href={whatsappLink}
                   className='hover:text-black'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -57,7 +58,7 @@ const Contact = () => {
               <div className='flex items-center gap-2 text-wine'>
                 <FiInstagram />
                 <a
-                  href='https://instagram.com/titibellz_mua?igshid=MzRlODBiNWFlZA=='
+                  href={instagramLink}
                   className=' hover:text-black'
                   target='_blank'
                   rel='noopener noreferrer'
