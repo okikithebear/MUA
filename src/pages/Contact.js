@@ -5,7 +5,7 @@ import { transition1 } from '../transitions';
 import { FiMail, FiPhone, FiInstagram } from 'react-icons/fi';
 
 const Contact = () => {
-  const emailLink = 'mailto:mua@gmail.com';
+  const emailLink = 'mailto:Titibellz8@gmail.com';
   const whatsappLink = 'https://api.whatsapp.com/send?phone=08060931452';
   const instagramLink =
     'https://instagram.com/titibellz_mua?igshid=MzRlODBiNWFlZA==';
@@ -40,7 +40,7 @@ const Contact = () => {
                 <FiMail />
                 <span>Gmail:</span>
                 <a href={emailLink} className='hover:text-black'>
-                  mua@gmail.com
+                  Titibellz8@gmail.com
                 </a>
               </div>
               <div className='flex items-center gap-2 text-wine'>
